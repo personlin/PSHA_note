@@ -1,0 +1,4 @@
+# 設計地震歷時 {#week13}
+
+design time histories
+設計地震歷時

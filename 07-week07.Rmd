@@ -1,0 +1,4 @@
+# 機率式地震危害度分析的數學方程式與應用範例 {#week7}
+
+PSHA math & example applications
+機率式地震危害度分析的數學方程式與應用範例

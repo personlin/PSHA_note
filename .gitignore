@@ -31,3 +31,12 @@ vignettes/*.pdf
 # Temporary files created by R markdown
 *.utf8.md
 *.knit.md
+.Rproj.user
+
+# Temporary file created by ultraedit
+*.bak
+
+_publish.R
+_book
+_bookdown_files
+rsconnect

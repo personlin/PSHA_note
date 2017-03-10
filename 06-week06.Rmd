@@ -1,0 +1,4 @@
+# 地震動模型 {#week6}
+
+Ground motion models
+地震動模型

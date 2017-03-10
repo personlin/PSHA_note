@@ -1,0 +1,4 @@
+# 設計地震，機率式地震危害度分析簡介，機率回顧 {#week1}
+
+Design ground motions, PSHA intro, & Probability review
+設計地震，機率式地震危害度分析簡介，機率回顧

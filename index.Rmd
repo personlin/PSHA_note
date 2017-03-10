@@ -1,0 +1,20 @@
+--- 
+title: "Norman Abrahamson's C276 & ESP276 課程筆記"
+author: ["Person Lin", "Sanni Hsieh"]
+date: "`r Sys.Date()`"
+site: bookdown::bookdown_site
+output: bookdown::gitbook
+documentclass: book
+bibliography: [book.bib, packages.bib]
+biblio-style: apalike
+link-citations: yes
+github-repo: personlin/PSHA_book
+description: "這是一本紀錄Norman Abrahamson教授2017年C276 & ESP276 關於地震危害度分析課程的上課筆記。This book is the lecture Notes taking from Norman Abrahamson's C276 Advanced Seismology Lecture"
+---
+
+# 前言 {-}
+
+這本書是Norman Abrahamson's C276&EPS 276 課程的上課筆記，上課的[錄影檔](https://www.youtube.com/channel/UCPzYyrT6wlig5oYO3bdFjig)
+可以在Youtube上面觀看。
+
+
