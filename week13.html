@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html >
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Norman Abrahamson’s C276 &amp; ESP276 課程筆記</title>
+  <meta name="description" content="這是一本紀錄Norman Abrahamson教授2017年C276 &amp; ESP276 關於地震危害度分析課程的上課筆記。This book is the lecture Notes taking from Norman Abrahamson’s C276 Advanced Seismology Lecture">
+  <meta name="generator" content="bookdown 0.3.14 and GitBook 2.6.7">
+
+  <meta property="og:title" content="Norman Abrahamson’s C276 &amp; ESP276 課程筆記" />
+  <meta property="og:type" content="book" />
+  
+  
+  <meta property="og:description" content="這是一本紀錄Norman Abrahamson教授2017年C276 &amp; ESP276 關於地震危害度分析課程的上課筆記。This book is the lecture Notes taking from Norman Abrahamson’s C276 Advanced Seismology Lecture" />
+  <meta name="github-repo" content="personlin/PSHA_book" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Norman Abrahamson’s C276 &amp; ESP276 課程筆記" />
+  
+  <meta name="twitter:description" content="這是一本紀錄Norman Abrahamson教授2017年C276 &amp; ESP276 關於地震危害度分析課程的上課筆記。This book is the lecture Notes taking from Norman Abrahamson’s C276 Advanced Seismology Lecture" />
+  
+
+<meta name="author" content="Person Lin">
+<meta name="author" content="Sanni Hsieh">
+
+
+<meta name="date" content="2017-03-24">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  
+  
+<link rel="prev" href="week12.html">
+<link rel="next" href="week14.html">
+<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./">PSHA課程筆記</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>前言</a></li>
+<li class="chapter" data-level="1" data-path="week1.html"><a href="week1.html"><i class="fa fa-check"></i><b>1</b> 設計地震，機率式地震危害度分析簡介，機率回顧</a></li>
+<li class="chapter" data-level="2" data-path="week2.html"><a href="week2.html"><i class="fa fa-check"></i><b>2</b> 知識不確定性</a></li>
+<li class="chapter" data-level="3" data-path="week3.html"><a href="week3.html"><i class="fa fa-check"></i><b>3</b> 震源特性</a></li>
+<li class="chapter" data-level="4" data-path="week4.html"><a href="week4.html"><i class="fa fa-check"></i><b>4</b> 地震動模型</a></li>
+<li class="chapter" data-level="5" data-path="week5.html"><a href="week5.html"><i class="fa fa-check"></i><b>5</b> 地震動模型</a></li>
+<li class="chapter" data-level="6" data-path="week6.html"><a href="week6.html"><i class="fa fa-check"></i><b>6</b> 地震動模型</a></li>
+<li class="chapter" data-level="7" data-path="week7.html"><a href="week7.html"><i class="fa fa-check"></i><b>7</b> 機率式地震危害度分析的數學方程式與應用範例</a></li>
+<li class="chapter" data-level="8" data-path="week8.html"><a href="week8.html"><i class="fa fa-check"></i><b>8</b> 回顧與期中考</a></li>
+<li class="chapter" data-level="9" data-path="week9.html"><a href="week9.html"><i class="fa fa-check"></i><b>9</b> 設計反應譜</a></li>
+<li class="chapter" data-level="10" data-path="week10.html"><a href="week10.html"><i class="fa fa-check"></i><b>10</b> 條件地動模型</a></li>
+<li class="chapter" data-level="11" data-path="week11.html"><a href="week11.html"><i class="fa fa-check"></i><b>11</b> 春假</a></li>
+<li class="chapter" data-level="12" data-path="week12.html"><a href="week12.html"><i class="fa fa-check"></i><b>12</b> 機率風險與風險導向設計反應譜</a></li>
+<li class="chapter" data-level="13" data-path="week13.html"><a href="week13.html"><i class="fa fa-check"></i><b>13</b> 設計地震歷時</a></li>
+<li class="chapter" data-level="14" data-path="week14.html"><a href="week14.html"><i class="fa fa-check"></i><b>14</b> 風險評估境況地震歷時</a></li>
+<li class="chapter" data-level="15" data-path="week15.html"><a href="week15.html"><i class="fa fa-check"></i><b>15</b> 危害度分析軟體</a></li>
+<li class="chapter" data-level="" data-path="references.html"><a href="references.html"><i class="fa fa-check"></i>References</a></li>
+<li class="divider"></li>
+<li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Norman Abrahamson’s C276 &amp; ESP276 課程筆記</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="week13" class="section level1">
+<h1><span class="header-section-number">第13週</span> 設計地震歷時</h1>
+<p>design time histories 設計地震歷時</p>
+
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="week12.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="week14.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script>
+require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"google": false,
+"weibo": false,
+"instapper": false,
+"vk": false,
+"all": ["facebook", "google", "twitter", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": "https://github.com/personlin/PSHA_book/edit/master/13-week13.Rmd",
+"text": "Edit"
+},
+"download": null,
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+</body>
+
+</html>

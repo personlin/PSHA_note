@@ -1,0 +1,19 @@
+[
+["index.html", "Norman Abrahamson’s C276 &amp; ESP276 課程筆記 前言", " Norman Abrahamson’s C276 &amp; ESP276 課程筆記 Person Lin Sanni Hsieh 2017-03-24 前言 這本書是Norman Abrahamson’s C276&amp;EPS 276 課程的上課筆記，上課的錄影檔 可以在Youtube上面觀看。 "],
+["week1.html", "第1週 設計地震，機率式地震危害度分析簡介，機率回顧", " 第1週 設計地震，機率式地震危害度分析簡介，機率回顧 Design ground motions, PSHA intro, &amp; Probability review 設計地震，機率式地震危害度分析簡介，機率回顧 "],
+["week2.html", "第2週 知識不確定性", " 第2週 知識不確定性 Epistemic uncertainty 知識不確定性 "],
+["week3.html", "第3週 震源特性", " 第3週 震源特性 Source Characterization 震源特性 "],
+["week4.html", "第4週 地震動模型", " 第4週 地震動模型 Ground motion models 地震動模型 "],
+["week5.html", "第5週 地震動模型", " 第5週 地震動模型 Ground motion models 地震動模型 "],
+["week6.html", "第6週 地震動模型", " 第6週 地震動模型 Ground motion models 地震動模型 "],
+["week7.html", "第7週 機率式地震危害度分析的數學方程式與應用範例", " 第7週 機率式地震危害度分析的數學方程式與應用範例 PSHA math &amp; example applications 機率式地震危害度分析的數學方程式與應用範例 "],
+["week8.html", "第8週 回顧與期中考", " 第8週 回顧與期中考 Review and midterm 回顧與期中考 "],
+["week9.html", "第9週 設計反應譜", " 第9週 設計反應譜 Design spectra 設計反應譜 "],
+["week10.html", "第10週 條件地動模型", " 第10週 條件地動模型 Conditional ground-motion models 條件地動模型 "],
+["week11.html", "第11週 春假", " 第11週 春假 Spring break 春假 "],
+["week12.html", "第12週 機率風險與風險導向設計反應譜", " 第12週 機率風險與風險導向設計反應譜 probabilistic risk and risk-targeted design spectra 機率風險與風險導向設計反應譜 "],
+["week13.html", "第13週 設計地震歷時", " 第13週 設計地震歷時 design time histories 設計地震歷時 "],
+["week14.html", "第14週 風險評估境況地震歷時", " 第14週 風險評估境況地震歷時 Scenario time histories for risk 風險評估境況地震歷時 "],
+["week15.html", "第15週 危害度分析軟體", " 第15週 危害度分析軟體 Hazard software 危害度分析軟體 "],
+["references.html", "References", " References "]
+]
