@@ -1,6 +1,6 @@
 --- 
 title: "Norman Abrahamson's C276 & ESP276 課程筆記"
-author: ["Person Lin", "Sanni Hsieh"]
+author: ["Person Lin", "Sanni Hsieh", "Mica Chang"]
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 output: bookdown::gitbook
